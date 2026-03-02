@@ -1,6 +1,7 @@
 import requests
 import streamlit as st
 
+
 @st.cache_data(ttl=3600)  # Cache for 1 hour
 def fetch_github_stats(username):
     """

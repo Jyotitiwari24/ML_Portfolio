@@ -10,6 +10,8 @@ st.set_page_config(
 )
 
 
+
+
 # Load data
 @st.cache_data
 def load_data():
@@ -159,6 +161,7 @@ for edu in data['education']:
 
 # Call to Action
 st.markdown("---")
+
 st.markdown("""
 <div style="text-align: center; padding: 3rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             border-radius: 20px; color: white;">
@@ -166,6 +169,8 @@ st.markdown("""
     <p style="font-size: 1.2rem;">I'm currently seeking ML/MLOps opportunities</p>
 </div>
 """, unsafe_allow_html=True)
+
+st.markdown("<br><br>", unsafe_allow_html=True)
 
 col1, col2, col3 = st.columns([1, 1, 1])
 with col2:

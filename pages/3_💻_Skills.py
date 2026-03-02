@@ -9,12 +9,14 @@ st.set_page_config(
     page_icon="💻",
     layout="wide"
 )
+  
 
 # Load data
 @st.cache_data
 def load_data():
     with open('data/portfolio_data.json', 'r') as f:
         return json.load(f)
+
 
 data = load_data()
 

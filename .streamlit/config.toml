@@ -1,8 +1,8 @@
 [theme]
-primaryColor="#FF69B4"
-backgroundColor="#FFF5F7"
-secondaryBackgroundColor="#FFE5EC"
-textColor="#4A0E4E"
+primaryColor="#667eea"
+backgroundColor="#FFFFFF"
+secondaryBackgroundColor="#F0F2F6"
+textColor="#262730"
 font="sans serif"
 
 [server]
@@ -13,50 +13,3 @@ enableCORS = false
 
 [browser]
 gatherUsageStats = false
-```
-
----
-
-## **WHAT CHANGED:**
-
-### **🌸 NEW PINK THEME:**
-- **Primary:** Light Pink (#FFB6C1)
-- **Accent:** Hot Pink (#FF69B4) 
-- **Dark Pink:** Deep Pink (#FF1493)
-- **Purple Pink:** Medium Violet Red (#C71585)
-
-### **✨ NEW EFFECTS:**
-- **Glass-morphism cards** - Beautiful frosted glass effect
-- **Gradient animations** - Smooth color transitions
-- **Floating animations** - Gentle up/down movement
-- **Sparkle effects** - Twinkling elements
-- **Glow effects** - Soft shadows and highlights
-- **Hover animations** - Interactive card transforms
-- **Gradient text** - Animated rainbow text
-
-### **💖 NEW FEATURES:**
-- **Animated gradient backgrounds**
-- **Pulsing metrics**
-- **Glowing buttons with ripple effect**
-- **Beautiful sidebar with gradient**
-- **Modern glass cards**
-- **Smooth transitions everywhere**
-- **Professional yet feminine design**
-
----
-
-## **PREVIEW OF THE NEW DESIGN:**
-```
-┌─────────────────────────────────────────────────┐
-│  ✨ 🌸 ✨                                        │
-│                                                 │
-│   Welcome to My Creative Portfolio              │
-│   Building AI Systems That Scale | MLOps       │
-│   💖 🚀 🎯 💻 🌟                                │
-│                                                 │
-├──────────┬──────────┬──────────┬────────────────┤
-│  [Glass  │  [Glass  │  [Glass  │                │
-│   Card]  │   Card]  │   Card]  │  [Sidebar]     │
-│  🚀      │  💻      │  📊      │  with pink     │
-│ Projects │  Skills  │  Demos   │  gradient      │
-└──────────┴──────────┴──────────┴────────────────┘

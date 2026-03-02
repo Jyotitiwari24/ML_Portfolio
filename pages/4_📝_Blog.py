@@ -8,11 +8,13 @@ st.set_page_config(
     layout="wide"
 )
 
+
 # Load data
 @st.cache_data
 def load_data():
     with open('data/portfolio_data.json', 'r') as f:
         return json.load(f)
+
 
 data = load_data()
 
@@ -401,6 +403,9 @@ st.markdown("""
     <p>I'm always happy to connect with fellow ML enthusiasts!</p>
 </div>
 """, unsafe_allow_html=True)
+
+# 👇 Add spacing here
+st.markdown("<br><br>", unsafe_allow_html=True)
 
 col1, col2, col3 = st.columns([1, 1, 1])
 with col2:
