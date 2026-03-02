@@ -144,8 +144,8 @@ with col2:
     st.markdown("### 📄 Resume")
     st.download_button(
         label="📥 Download Resume (PDF)",
-        data="Your resume content here",  # Replace with actual PDF
-        file_name="Jyoti_Tiwari_ML_Engineer_Resume.pdf",
+        data="C:\Users\tjyot\Videos\projects\project\cv_projects\My_Portfolio\data\jyoti_tiwari_cv.docx",  
+        file_name="C:\Users\tjyot\Videos\projects\project\cv_projects\My_Portfolio\data\jyoti_tiwari_cv.docx",
         mime="application/pdf",
         use_container_width=True
     )
