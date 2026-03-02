@@ -124,15 +124,19 @@ with col1:
     
     st.markdown("<br>", unsafe_allow_html=True)
     
-    # Resume download
-    st.markdown("### 📄 Resume")
-    st.download_button(
-        label="📥 Download Resume (PDF)",
-        data="Your resume content here", 
-        file_name="Jyoti_Tiwari_ML_Engineer_Resume.pdf",
-        mime="application/pdf",
-        use_container_width=True
-    )
+# Resume download
+st.markdown("### 📄 Resume")
+
+with open("data/jyoti_tiwari_cv.docx", "rb") as file:
+    resume_bytes = file.read()
+
+st.download_button(
+    label="📥 Download Resume",
+    data=resume_bytes,
+    file_name="Jyoti_Tiwari_CV.docx",
+    mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    use_container_width=True
+)
 
 st.markdown("---")
 

@@ -1,0 +1,122 @@
+{
+  "personal_info": {
+    "name": "Jyoti Kumari Tiwari",
+    "location": "Hyderabad, India",
+    "linkedin": "https://linkedin.com/in/Jyotitiwari24",
+    "github": "https://github.com/Jyotitiwari24"
+  },
+  "summary": "Results-driven M.Tech graduate in Computer Science (AI/ML) from RGPV University with a strong academic background (B.Tech ECE, 9.23 CGPA, 92%). Experienced in building and deploying end-to-end machine learning solutions using Python, Scikit-learn, FastAPI, Flask, and Docker. Demonstrated ability to deliver production-ready ML APIs across healthcare, finance, and NLP domains. Currently strengthening DSA skills targeting 150+ problems. Seeking ML/software engineering roles in Hyderabad service-based companies.",
+  "education": [
+    {
+      "degree": "M.Tech – Computer Science & Engineering (AI/ML)",
+      "university": "RGPV University",
+      "duration": "2023 – 2025",
+      "score": "75%"
+    },
+    {
+      "degree": "B.Tech – Electronics & Communication Engineering (ECE)",
+      "university": "RGPV University",
+      "duration": "2019 – 2023",
+      "score": "92%",
+      "cgpa": "9.23"
+    },
+    {
+      "degree": "Class XII – Science (Mathematics)",
+      "score": "56%"
+    },
+    {
+      "degree": "Class X",
+      "score": "66%"
+    }
+  ],
+  "technical_skills": {
+    "programming_languages": ["Python", "C", "C++"],
+    "ml_data_science": [
+      "NumPy", "Pandas", "Scikit-learn", "XGBoost",
+      "TF-IDF", "Sentence Transformers", "Random Forest", "SVM", "Logistic Regression"
+    ],
+    "ml_concepts": [
+      "Data Preprocessing", "Feature Engineering", "Model Training & Evaluation",
+      "Classification", "Regression", "RAG (Retrieval-Augmented Generation)", "NLP"
+    ],
+    "deployment_tools": ["FastAPI", "Flask", "Docker", "REST APIs", "Git", "GitHub", "Jupyter Notebook"],
+    "currently_learning": ["Data Structures & Algorithms (DSA)", "Advanced Python", "ML Theory & Practicals"]
+  },
+  "projects": [
+    {
+      "name": "Medical AI Assistant with RAG",
+      "tech_stack": ["Python", "LLMs", "Semantic Search", "FastAPI"],
+      "github": "https://github.com/Jyotitiwari24/Medical-AI-Assistant-with-RAG",
+      "highlights": [
+        "RAG-based assistant using LLMs and semantic search over medical knowledge base",
+        "FastAPI backend with source citations and safety monitoring",
+        "Vector embeddings for semantic retrieval"
+      ]
+    },
+    {
+      "name": "Fraud Detection MLOps System",
+      "tech_stack": ["Python", "FastAPI", "Docker", "MLOps"],
+      "github": "https://github.com/Jyotitiwari24/fraud-detection-mlops",
+      "highlights": [
+        "End-to-end MLOps pipeline with inference logging and failure debugging",
+        "Containerized with Docker and production monitoring dashboards"
+      ]
+    },
+    {
+      "name": "Job Skill Analyzer",
+      "tech_stack": ["Python", "NLP", "Sentence Transformers"],
+      "github": "https://github.com/Jyotitiwari24/job_skill_analyzer",
+      "highlights": [
+        "Compares resumes against job descriptions using NLP and sentence embeddings",
+        "Generates skill gap analysis and personalized learning roadmap"
+      ]
+    },
+    {
+      "name": "House Price Prediction API",
+      "tech_stack": ["XGBoost", "FastAPI", "Docker"],
+      "github": "https://github.com/Jyotitiwari24/house_price_prediction",
+      "highlights": ["End-to-end ML API on California housing dataset with full Docker deployment"]
+    },
+    {
+      "name": "Fake News Detection Web App",
+      "tech_stack": ["Flask", "TF-IDF", "Logistic Regression", "Docker"],
+      "github": "https://github.com/Jyotitiwari24/fake_news_detection",
+      "highlights": ["Dockerized Flask app for fake news detection using TF-IDF and Logistic Regression"]
+    },
+    {
+      "name": "Wine Quality Prediction",
+      "tech_stack": ["Python", "Random Forest", "Flask"],
+      "github": "https://github.com/Jyotitiwari24/wine_quality_prediction",
+      "highlights": ["Random Forest model with Flask API deployment"]
+    },
+    {
+      "name": "Rock vs Mine Prediction",
+      "tech_stack": ["Python", "ML", "Docker"],
+      "github": "https://github.com/Jyotitiwari24/rock_vs_mine_prediction",
+      "highlights": ["Sonar signal classification with training, inference, and Docker setup"]
+    },
+    {
+      "name": "Loan Status Prediction",
+      "tech_stack": ["Python", "SVM", "FastAPI"],
+      "github": "https://github.com/Jyotitiwari24/loan_status_prediction",
+      "highlights": ["SVM-based loan approval predictor deployed via FastAPI"]
+    },
+    {
+      "name": "Diabetes Prediction",
+      "tech_stack": ["Python", "SVM", "FastAPI", "Docker"],
+      "github": "https://github.com/Jyotitiwari24/diabetes_prediction",
+      "highlights": ["End-to-end ML API for diabetes prediction using SVM, FastAPI, and Docker"]
+    }
+  ],
+  "ongoing_development": [
+    "Solving 150+ DSA problems (Arrays, Strings, Linked Lists, Recursion)",
+    "Deepening Python and ML theory with hands-on practicals (Iris dataset, data visualization)",
+    "Revisiting ML concepts: evaluation metrics, cross-validation, supervised/unsupervised learning"
+  ],
+  "target_roles": {
+    "job_type": "Software Engineer / ML Engineer",
+    "preferred_companies": ["Deloitte", "Accenture", "Infosys", "Wipro", "TCS", "Cognizant"],
+    "preferred_location": "Hyderabad, India",
+    "target_year": "2026"
+  }
+}
