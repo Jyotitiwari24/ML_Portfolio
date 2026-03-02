@@ -124,17 +124,21 @@ with col1:
     
     st.markdown("<br>", unsafe_allow_html=True)
     
-# Resume download
+import os
+
 st.markdown("### 📄 Resume")
 
-with open("data/jyoti_tiwari_cv.docx", "rb") as file:
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+file_path = os.path.join(BASE_DIR, "data", "jyoti_tiwari_cv.pdf")
+
+with open(file_path, "rb") as file:
     resume_bytes = file.read()
 
 st.download_button(
     label="📥 Download Resume",
     data=resume_bytes,
-    file_name="Jyoti_Tiwari_CV.docx",
-    mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    file_name="Jyoti_Tiwari_CV.pdf",
+    mime="application/pdf",
     use_container_width=True
 )
 
