@@ -1,0 +1,297 @@
+{
+  "personal": {
+    "name": "Jyoti Kumari Tiwari",
+    "title": "ML/MLOps Engineer",
+    "tagline": "Building AI Systems That Scale | Specialized in ML Deployment & Production Pipelines",
+    "email": "jyoti81tiwari@gmail.com",
+    "linkedin": "https://linkedin.com/in/Jyotitiwari24",
+    "github": "https://github.com/Jyotitiwari24",
+    "location": "Hyderabad, India",
+    "bio": "ML/MLOps Engineer with expertise in deploying production-ready machine learning systems. Specialized in building end-to-end ML pipelines using Docker, FastAPI, and modern MLOps practices. Passionate about solving real-world problems with AI.",
+    "availability": "Immediate (Feb 2025)",
+    "job_preferences": ["ML Engineer", "MLOps Engineer", "Data Scientist"],
+    "preferred_location": "Hyderabad / Remote"
+  },
+  
+  "education": [
+    {
+      "degree": "M.Tech in CSE (AI/ML)",
+      "institution": "RGPV University",
+      "year": "2023 - 2025",
+      "grade": "75%",
+      "highlights": ["Machine Learning", "Deep Learning", "MLOps", "Data Science", "Neural Networks"]
+    },
+    {
+      "degree": "B.Tech in Electronics & Communication Engineering",
+      "institution": "RGPV University",
+      "year": "2019 - 2023",
+      "grade": "9.23 CGPA (92%)",
+      "highlights": ["Signal Processing", "Python Programming", "Mathematics", "Data Structures"]
+    }
+  ],
+  
+  "skills": {
+    "programming": {
+      "Python": 90,
+      "SQL": 70,
+      "Bash": 65,
+      "C/C++": 60
+    },
+    "ml_frameworks": {
+      "scikit-learn": 90,
+      "TensorFlow": 75,
+      "XGBoost": 85,
+      "Pandas": 95,
+      "NumPy": 95,
+      "Matplotlib": 80
+    },
+    "mlops": {
+      "Docker": 85,
+      "FastAPI": 90,
+      "Flask": 85,
+      "Git/GitHub": 90,
+      "MLflow": 70,
+      "CI/CD": 75
+    },
+    "cloud": {
+      "AWS": 70,
+      "Model Deployment": 80,
+      "EC2/S3": 65
+    },
+    "nlp": {
+      "NLTK": 75,
+      "Transformers": 70,
+      "Text Processing": 85,
+      "Sentiment Analysis": 85
+    }
+  },
+  
+  "projects": [
+    {
+      "id": 1,
+      "name": "Medical AI Assistant with RAG",
+      "description": "RAG-based Medical AI Assistant using LLMs, semantic search, and medical knowledge base for evidence-backed health information with source citations",
+      "tech_stack": ["Python", "LLM", "RAG", "FastAPI", "Semantic Search", "Vector DB"],
+      "github": "https://github.com/Jyotitiwari24/Medical-AI-Assistant-with-RAG",
+      "demo_url": null,
+      "highlights": [
+        "Implemented Retrieval-Augmented Generation architecture",
+        "Integrated medical knowledge base with semantic search",
+        "Source citation for evidence-backed responses",
+        "Safety monitoring and content filtering",
+        "FastAPI deployment with comprehensive documentation"
+      ],
+      "category": "NLP/LLM",
+      "date": "Jan 2025",
+      "impact": "Provides accurate medical information with verifiable sources",
+      "metrics": {
+        "accuracy": "N/A",
+        "deployment": "FastAPI",
+        "status": "Deployed"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Fraud Detection MLOps System",
+      "description": "End-to-end MLOps fraud detection with monitoring, logging, inference tracking, and automated retraining pipeline",
+      "tech_stack": ["Python", "FastAPI", "Docker", "MLflow", "Prometheus", "Grafana", "CI/CD"],
+      "github": "https://github.com/Jyotitiwari24/fraud-detection-mlops",
+      "demo_url": null,
+      "highlights": [
+        "Complete MLOps pipeline from training to deployment",
+        "Real-time fraud detection API (<100ms latency)",
+        "Model performance monitoring with Prometheus + Grafana",
+        "Dockerized for production deployment",
+        "Inference logging and failure debugging system",
+        "Automated retraining on performance degradation"
+      ],
+      "category": "MLOps",
+      "date": "Jan 2025",
+      "impact": "Production-ready fraud detection with comprehensive monitoring",
+      "metrics": {
+        "accuracy": "85%+",
+        "deployment": "Docker + FastAPI",
+        "status": "Production-Ready"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Job Skill Analyzer",
+      "description": "AI-powered resume analyzer that matches skills with job descriptions using NLP and sentence embeddings to identify gaps and create learning roadmaps",
+      "tech_stack": ["Python", "NLP", "Sentence Transformers", "Flask", "Scikit-learn", "BERT"],
+      "github": "https://github.com/Jyotitiwari24/job_skill_analyzer",
+      "demo_url": null,
+      "highlights": [
+        "Resume and job description parsing with NLP",
+        "Semantic similarity matching using sentence embeddings",
+        "Skill gap analysis and identification",
+        "Personalized learning roadmap generation",
+        "Interactive web interface with Flask"
+      ],
+      "category": "NLP",
+      "date": "Dec 2024",
+      "impact": "Helps job seekers identify skill gaps and create targeted learning plans",
+      "metrics": {
+        "accuracy": "88%",
+        "deployment": "Flask",
+        "status": "Deployed"
+      }
+    },
+    {
+      "id": 4,
+      "name": "House Price Prediction API",
+      "description": "California housing price prediction using XGBoost with complete FastAPI deployment and Docker containerization",
+      "tech_stack": ["Python", "XGBoost", "FastAPI", "Docker", "Scikit-learn", "Pandas"],
+      "github": "https://github.com/Jyotitiwari24/house_price_prediction",
+      "demo_url": null,
+      "highlights": [
+        "XGBoost regression model with feature engineering",
+        "RESTful API with FastAPI and automatic documentation",
+        "Docker containerization for easy deployment",
+        "Input validation and comprehensive error handling",
+        "Model serialization and loading optimization"
+      ],
+      "category": "Regression",
+      "date": "Jan 2025",
+      "impact": "Real-time housing price predictions with high accuracy",
+      "metrics": {
+        "accuracy": "R² = 0.85",
+        "deployment": "Docker + FastAPI",
+        "status": "Deployed"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Wine Quality Prediction",
+      "description": "Multi-class wine quality classification using Random Forest with Flask API and model interpretation",
+      "tech_stack": ["Python", "Random Forest", "Flask", "Scikit-learn", "SHAP"],
+      "github": "https://github.com/Jyotitiwari24/wine_quality_prediction",
+      "demo_url": null,
+      "highlights": [
+        "Multi-class classification with Random Forest",
+        "Feature importance analysis and interpretation",
+        "Flask REST API with JSON responses",
+        "Model serialization with joblib",
+        "Comprehensive data preprocessing pipeline"
+      ],
+      "category": "Classification",
+      "date": "Dec 2024",
+      "impact": "Automated wine quality assessment for vineyards",
+      "metrics": {
+        "accuracy": "82%",
+        "deployment": "Flask API",
+        "status": "Deployed"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Rock vs Mine Prediction",
+      "description": "Sonar signal classification for underwater object detection using machine learning with complete Docker setup",
+      "tech_stack": ["Python", "Logistic Regression", "Docker", "Pandas", "NumPy"],
+      "github": "https://github.com/Jyotitiwari24/rock_vs_mine_prediction",
+      "demo_url": null,
+      "highlights": [
+        "Binary classification on sonar signal data",
+        "Complete training and inference pipeline",
+        "Docker containerization for deployment",
+        "Model evaluation with confusion matrix and metrics",
+        "Data preprocessing and feature scaling"
+      ],
+      "category": "Classification",
+      "date": "Nov 2024",
+      "impact": "Accurate underwater object detection for marine applications",
+      "metrics": {
+        "accuracy": "83%",
+        "deployment": "Docker",
+        "status": "Deployed"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Fake News Detection",
+      "description": "TF-IDF and Logistic Regression based fake news classifier with Flask web interface and Docker deployment",
+      "tech_stack": ["Python", "TF-IDF", "Logistic Regression", "Flask", "NLTK", "Docker"],
+      "github": "https://github.com/Jyotitiwari24/fake_news_detection",
+      "demo_url": null,
+      "highlights": [
+        "Text preprocessing and cleaning pipeline",
+        "TF-IDF vectorization for feature extraction",
+        "Logistic Regression classifier with regularization",
+        "Interactive web interface with real-time predictions",
+        "Dockerized for easy deployment"
+      ],
+      "category": "NLP",
+      "date": "Jan 2025",
+      "impact": "Helps identify misinformation with high accuracy",
+      "metrics": {
+        "accuracy": "87%",
+        "deployment": "Flask + Docker",
+        "status": "Deployed"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Diabetes Prediction API",
+      "description": "SVM-based diabetes risk prediction with FastAPI deployment and comprehensive medical data preprocessing",
+      "tech_stack": ["Python", "SVM", "FastAPI", "Docker", "Scikit-learn"],
+      "github": "https://github.com/Jyotitiwari24/diabetes_prediction",
+      "demo_url": null,
+      "highlights": [
+        "Support Vector Machine classifier with RBF kernel",
+        "FastAPI REST endpoint with automatic docs",
+        "Docker containerization",
+        "Medical data preprocessing and validation",
+        "Model evaluation and cross-validation"
+      ],
+      "category": "Healthcare ML",
+      "date": "Jan 2025",
+      "impact": "Early diabetes risk assessment tool",
+      "metrics": {
+        "accuracy": "78%",
+        "deployment": "FastAPI + Docker",
+        "status": "Deployed"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Loan Status Prediction",
+      "description": "Loan approval prediction using SVM with FastAPI deployment and financial data analysis",
+      "tech_stack": ["Python", "SVM", "FastAPI", "Pandas", "Scikit-learn"],
+      "github": "https://github.com/Jyotitiwari24/loan_status_prediction",
+      "demo_url": null,
+      "highlights": [
+        "Binary classification for loan approval",
+        "Feature engineering on financial data",
+        "RESTful API with FastAPI",
+        "Model persistence and efficient loading",
+        "Input validation and error handling"
+      ],
+      "category": "Financial ML",
+      "date": "Nov 2024",
+      "impact": "Automated loan approval decision system",
+      "metrics": {
+        "accuracy": "80%",
+        "deployment": "FastAPI",
+        "status": "Deployed"
+      }
+    }
+  ],
+  
+  "certifications": [
+    {
+      "name": "Machine Learning Specialization",
+      "issuer": "Coursera",
+      "date": "2024"
+    }
+  ],
+  
+  "interests": [
+    "MLOps & Production ML",
+    "Natural Language Processing",
+    "Computer Vision",
+    "Deep Learning",
+    "Cloud Computing"
+  ]
+}
+
+
