@@ -287,3 +287,4 @@ downloads/
 !.streamlit/config.toml
 !data/portfolio_data.json
 !assets/.gitkeep
+.streamlit/secrets.toml

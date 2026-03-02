@@ -56,45 +56,28 @@ with col1:
     
     # Contact Form
     st.markdown("## ✉️ Send Me a Message")
-    
-    with st.form("contact_form", clear_on_submit=True):
-        col_form1, col_form2 = st.columns(2)
-        
-        with col_form1:
-            name = st.text_input("Your Name *")
-            email = st.text_input("Your Email *")
-        
-        with col_form2:
-            company = st.text_input("Company (Optional)")
-            subject = st.selectbox(
-                "Subject *",
-                ["Job Opportunity", "Collaboration", "Project Discussion", "General Inquiry", "Other"]
-            )
-        
-        message = st.text_area("Message *", height=150)
-        
-        submitted = st.form_submit_button("📨 Send Message", use_container_width=True)
-        
-        if submitted:
-            if name and email and message:
-                st.success("✅ Thank you for reaching out! I'll get back to you within 24 hours.")
-                st.balloons()
-                
-                # You can add email sending logic here
-                # For now, just display confirmation
-                st.info(f"""
-                **Message Preview:**
-                - From: {name} ({email})
-                - Company: {company if company else 'N/A'}
-                - Subject: {subject}
-                - Message: {message[:100]}{'...' if len(message) > 100 else ''}
-                """)
-            else:
-                st.error("⚠️ Please fill in all required fields (marked with *)")
 
-with col2:
-    st.markdown("## 📱 Direct Contact")
-    
+    st.markdown("""
+    Feel free to reach out for **ML / MLOps opportunities**, collaborations, 
+    or project discussions. I usually respond within 24 hours.
+    """)
+
+    st.markdown("---")
+
+    components.html(
+        """
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSefyyprYbtD4k-IvNnHoGiKQYyL5XbPq1l4AxBcQ3sMPR-IYw/viewform?embedded=true"
+        width="100%"
+        height="950"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0">
+        Loading…
+        </iframe>
+        """,
+        height=1000,
+    )
+        
     # Contact cards
     st.markdown(f"""
     <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -144,8 +127,8 @@ with col2:
     st.markdown("### 📄 Resume")
     st.download_button(
         label="📥 Download Resume (PDF)",
-        data="C:\Users\tjyot\Videos\projects\project\cv_projects\My_Portfolio\data\jyoti_tiwari_cv.docx",  
-        file_name="C:\Users\tjyot\Videos\projects\project\cv_projects\My_Portfolio\data\jyoti_tiwari_cv.docx",
+        data="Your resume content here", 
+        file_name="Jyoti_Tiwari_ML_Engineer_Resume.pdf",
         mime="application/pdf",
         use_container_width=True
     )
